@@ -2,7 +2,6 @@ import { products } from "../data/products.js"
 import { formatCurrency } from "./utils/money.js";
 
 
-hello()
 let cartItems = [];
 if (localStorage.getItem('cart')) {
   cartItems = JSON.parse(localStorage.getItem('cart'))
